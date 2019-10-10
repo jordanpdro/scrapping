@@ -1,8 +1,8 @@
-**README concernant le scrapping**
+# README concernant le scrapping
 
 Le code proposé ici répond à des exercices de base sur le scrapping
 
-**dark_trader.rb**
+## dark_trader.rb
 
 but de l'exercice: récupérer les noms des crypto monnaies listées dans un tableau HTML, puis leurs valeurs, et les associer dans un array de hashes
 
@@ -15,7 +15,7 @@ __methode list_prices:__ va rechercher les valeur de la colonne prix depuis le f
 __methode currency_value:__ associe chaque nom à une valeur dans des hashes, qui seront envoyés dans un array_urls
 (affichage limité à 10 valeurs pour ne pas faire chauffer ton ordi)
 
-**mairie_christmas.rb**
+## mairie_christmas.rb
 
 but de l'exercice: récupérer les adresses mails de chaque commune d'un département
 
@@ -27,7 +27,7 @@ __méthode get_townhall_urls:__ fournit un array des URL des mairies du départe
 
 __méthode city_mail_association:__ associe les 2 méthodes précédentes, scrappe chaque URLs ciblé pour en ressortir une adresse mail, puis créer des hashes {nom de ville => adresse mail} qui s'ajouteront dans un tableau
 
-**cher_depute.rb**
+## cher_depute.rb
 
 but de l'exercice: récupérer les prénoms, noms, et adresses mails des députés, et les classer dans un array de hashes {prénoms, noms, email}
 
